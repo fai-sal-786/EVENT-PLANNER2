@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="stylesheet">
+  <title>Document</title>
+</head>
+<style>
+  body {
+    background-color: bisque;
+  }
+
+  table {
+    background-color: aquamarine;
+    display: grid;
+    justify-content: center;
+    height: 400px;
+    width: 1100px;
+    margin: 0px auto;
+    border-radius: 12px;
+    flex-wrap: nowrap;
+  }
+
+  table,
+  th {
+    /* padding-left: 65px; */
+    margin: 0px auto;
+  }
+
+  table,
+  tr,
+  td {
+    padding-left: 85px;
+    margin: 0px 20px
+  }
+</style>
+
+<body>
+  <table>
+    <thead>
+      <tr>
+        <td>First Name</td>
+        <td>Last Name</td>
+        <td>CNICNO</td>
+        <td>Email</td>
+        <td>StudentId</td>
+      </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+  </table>
+
+  <script type="module" src="app.js"></script>
+</body>
+
+</html>
